@@ -3,4 +3,4 @@
 This is pinteresting sample application for
 [*One Month Rails*](http://onemonthrails.com)
 
-by Shawn Duan
+by [*Shawn Duan*](http://github.com/ShawnDuan)
