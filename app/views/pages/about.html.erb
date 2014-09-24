@@ -1,14 +1,39 @@
 <div class="jumbotron">
 	<div class="container">
-		<h1>About us</h1>
-		<p>
-			This is a Pinteresting app based on Ruby on Rail.<br>
-			You can browse the pins uploaded by users; <br>
-			and you can upload your favorite pictures if you sign up and log in. <br>
-			<p><em>Working on more features...</em></p>
-		</p>
-		<p>By <%= link_to 'Shawn Duan (Wenxiao)', 
-		'https://www.linkedin.com/in/shawnwduan',
-		:target => '_blank' %></p>
+		<h1>About me</h1>
+
+		<blockquote>
+			<p>
+				I am <%= link_to 'Shawn Duan (Wenxiao)', 'https://www.linkedin.com/in/shawnwduan',
+																								:target => '_blank' %>, 
+				fresh master graduate from <%= link_to 'Pennsylvania State University', 'http://www.psu.edu/',
+																								:target => '_blank' %>, <br>
+				actively seeking for full-time entry-level software development positions or opportunities.
+			</p>
+
+			<p>
+				<%= link_to "My Resume", {:controller => "resource", :action => "files"} %>
+			</p>	
+
+			<ul>
+				<li>Send me an email at <a href="mailto:"shawnwxd@gmail.com"">shawnwxd@gmail.com</a> </li>
+				<li>Connect with me on <%= link_to "LinkedIn", 'https://www.linkedin.com/in/shawnwduan',
+																								:target => '_blank' %> </li>
+				<li>Check out some of my personal projects on <%= link_to "GitHub", '#' %> </li>
+			</ul>
+		</blockquote>
+
+		<blockquote>
+			<p>
+				The application <%= link_to "in this web", pins_path %> is a <%= link_to "Pinterest", 'http://www.pinterest.com/', :target => '_blank' %> style app based on Ruby on Rail.<br>
+				You can browse the pins uploaded by users; <br>
+				and you can upload your favorite pictures if you sign up and log in. <br>
+				<p><em>Working on more features...</em></p>
+			</p>
+			<footer>By <%= link_to 'Shawn Duan (Wenxiao)', 
+			'https://www.linkedin.com/in/shawnwduan',
+			:target => '_blank' %></footer>
+		</blockquote>
+
   </div>
 </div>
