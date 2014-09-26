@@ -5,6 +5,6 @@ class PagesController < ApplicationController
   def about
   end
 
-  # def my2048
-  # end
+  def my2048
+  end
 end
