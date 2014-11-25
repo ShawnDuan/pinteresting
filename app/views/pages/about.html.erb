@@ -4,10 +4,8 @@
 
 		<blockquote>
 			<p>
-				I am <%= link_to 'Shawn Duan (Wenxiao)', 'https://www.linkedin.com/in/shawnwduan',
-																								:target => '_blank' %>, 
-				fresh master graduate from <%= link_to 'Pennsylvania State University', 'http://www.psu.edu/',
-																								:target => '_blank' %>, <br>
+				I am <%= link_to 'Shawn Duan (Wenxiao)', 'https://www.linkedin.com/in/shawnwduan', :target => '_blank' %>
+				, fresh master graduate from <%= link_to 'Pennsylvania State University', 'http://www.psu.edu/', :target => '_blank' %>, <br>
 				actively seeking for full-time entry-level software development positions or opportunities.
 			</p>
 
@@ -18,15 +16,18 @@
 			<ul>
 				<li>Send me an email at <a href="mailto:"shawnwxd@gmail.com"">shawnwxd@gmail.com</a> </li>
 				<li>Connect with me on <%= link_to "LinkedIn", 'https://www.linkedin.com/in/shawnwduan',
-																								:target => '_blank' %> </li>
-				<li>Check out some of my personal projects on <%= link_to "GitHub", '#' %> </li>
+				:target => '_blank' %> </li>
+				<li>Check out some of my personal projects on <%= link_to "GitHub", 'https://github.com/ShawnDuan',
+				:target => '_blank' %> </li>
 			</ul>
 		</blockquote>
 
 		<blockquote>
 			<h3>About this app:</h3>
 			<p>
-				The application <%= link_to "in this web", pins_path %> is a <%= link_to "Pinterest", 'http://www.pinterest.com/', :target => '_blank' %> style app based on Ruby on Rail.<br>
+				The application <%= link_to "in this web", pins_path %> is a 
+				<%= link_to "Pinterest", 'http://www.pinterest.com/', :target => '_blank' %> 
+				style app based on Ruby on Rail.<br>
 				You can browse the pins uploaded by users; <br>
 				and you can upload your favorite pictures if you sign up and log in. <br>
 				<p><em>Working on more features...</em></p>
